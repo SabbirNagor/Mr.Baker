@@ -1,0 +1,197 @@
+#wrapper {
+  display: flex;
+}
+/*********** Sidebar  *************/
+.btnh :hover{
+  background-color: #E9E9FF;
+  border-radius: 90px 0px 0px 90px;
+  box-shadow: 1px 1px 2px #ccc;
+  font-weight: 500;
+  
+}
+.snavbg{
+  background-color:  #FAF9FF;
+}
+.sidebar {
+
+  width: 17rem!important;
+}
+.bg-gradient-primary {
+background-color: rgb(225, 236, 225);
+}
+.navbar-nav {
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.sidebar-dark .sidebar-brand {
+  color: #fff;
+}
+.sidebar .sidebar-brand {
+  padding: 10px 16px;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.sidebar hr.sidebar-divider {
+  margin: 0 1rem 1rem;
+}
+/*.snavbg ul li:nth-child(1) {
+  position: relative;
+  border-bottom: 1px solid rgb(255, 255, 255);
+} */
+.sidebar .nav-item.active .nav-link {
+  font-weight: 700;
+}
+.sidebar .nav-item .nav-link {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  width: 14rem;
+}
+.sidebar .nav-item .nav-link span {
+  font-size: .85rem;
+  display: inline;
+}
+.sidebar .nav-item .collapse .collapse-inner {
+  border-radius: 0;
+  box-shadow: none;
+}
+/*********** main sec  *************/
+#wrapper #content-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+#wrapper #content-wrapper #content {
+  flex: 1 0 auto;
+}
+
+.sidebar .nav-item .nav-link .img-profile, .topbar .nav-item .nav-link .img-profile {
+  height: 2rem;
+  width: 2rem;
+}
+/*********** main sec top sec  *************/
+.bgavtr{
+  background-color: #F3F6FF;
+}
+.header_top_sec{
+  background-color: #ffffff;
+}
+/*** message notification  *****/
+.topbar .dropdown-list {
+  width: 20rem!important;
+}
+.topbar .dropdown-list .dropdown-header {
+  background-color: #2D2F94;
+  border: 1px solid #2D2F94;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: rgb(255, 255, 255);
+}
+.topbar .dropdown-list .dropdown-item {
+  white-space: normal;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-left: 1px solid #e3e6f0;
+  border-right: 1px solid #e3e6f0;
+  border-bottom: 1px solid #e3e6f0;
+  line-height: 1.3rem;
+}
+.topbar .dropdown-list .dropdown-item .dropdown-list-image img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.topbar .dropdown-list {
+  padding: 0;
+  border: none;
+  overflow: hidden;
+}
+.topbar .dropdown-list .dropdown-item .dropdown-list-image {
+  position: relative;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.topbar .dropdown-list .dropdown-item .dropdown-list-image .status-indicator {
+  background-color: #eaecf4;
+  height: .75rem;
+  width: .75rem;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: .125rem solid #fff;
+}
+.topbar .dropdown-list .dropdown-item .text-truncate {
+  max-width: 13.375rem;
+}
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #2e2f37;
+  text-decoration: none;
+  background-color: #f8f9fc;
+}
+.topbar .dropdown {
+  position: relative;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+.topbar .nav-item .nav-link {
+  height: 4.375rem;
+  display: flex;
+  align-items: center;
+  padding: 0 .75rem;
+}
+.sidebar .nav-item .nav-link .badge-counter, .topbar .nav-item .nav-link .badge-counter {
+  position: absolute;
+  transform: scale(.7);
+  transform-origin: top right;
+  right: 21px;
+}
+.dropdown-toggle {
+  white-space: nowrap;
+}
+/*********** Breadcum  *************/
+.breadcum_sec{
+  background-color: #ebebeb;
+  padding: 20px 15px;
+}
+.arrow_icon{
+  margin:0 6px;  
+  font-size: 20px;
+  color: #282828;
+}
+span{
+  font-size: 18px;
+}
+span.home{
+  color: #009245;
+  margin-right: 15px;
+  font-size: 30px;
+}
+/*********** Main Content  *************/
+.cntbg{
+  background-color:#F3F6FF;
+}
+
+/*********** fSearch  *************/
+.topbar .navbar-search {
+  width: 25rem;
+}
+.search_button{
+  background-color: #ffffff;
+    color: #009245;
+    border: 0;
+}
+/*********** footer  *************/
+footer.sticky-footer {
+  padding: 2rem 0;
+  flex-shrink: 0;
+  background-color: #f8f9fc;
+}
